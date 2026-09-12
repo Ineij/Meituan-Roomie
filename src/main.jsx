@@ -127,7 +127,7 @@ function HomePage({go,setDrawer,setModal,agentApplied,chores,activities}){
   const todayTask=chores.find(c=>c.id===1);
   return <>
     <section className="home-hero">
-      <div className="greeting"><span className="eyebrow">2026年 9月 12日 · 星期六</span><h1>下午好，Jenny。</h1><p>三个人，一个家。少一点扯皮，多一点好好生活。</p></div>
+      <div className="greeting"><span className="eyebrow">2026年 9月 12日 · 星期六</span><h1>下午好，Jenny。</h1><p className="home-slogan"><span>合租，也合得来。</span><span>Live together. Make room for each other.</span></p></div>
       <div className="hero-meta"><span className="live-dot"/>家里整体运转良好</div>
     </section>
     <section className="home-grid">
